@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Naveen's catalouge</title>
+
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="mystyle.css" rel="stylesheet" type="text/css"/>
+
+    </head>
+    <body class="cont">
+        <div>
+            <nav class="navbar navbar-inverse navbar-fixed-top">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#">Naveen's catalouge</a>
+                    </div>
+                    <div id="navbar" class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav">
+                            <li><a href="Home.html">Home</a></li>
+                            <li class="active"><a href="Yourself.html">Yourself</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <form class="form-horizontal" id="frm">
+            <div class="form-group">
+                <label  class="col-sm-2 control-label dt">Start Date</label>
+                <div class="col-sm-10">
+                   <input type="date"  id="demo" class="form-control" placeholder="Enter start date" value="">
+                  
+                </div>
+            </div>
+            <div class="form-group">
+                <label  class="col-sm-2 control-label dt">End Date</label>
+                <div class="col-sm-10">
+                   <input type="date"  id="demo1" class="form-control" placeholder="Enter end date" value="">
+                   <!-- <input type="date" id="dateInput" /> -->
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <button id="get" type="button" onclick="App.launch()" class="btn btn-primary">Get</button>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label  class="col-sm-2 control-label dt">Duration of the Project</label>
+                <div class="col-sm-10">
+                   <input type="text"  id="duration" class="form-control" placeholder="Poject Duration" value="">
+                   <!-- <input type="date" id="dateInput" /> -->
+                </div>
+            </div>
+        </form>
+
+
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/myfile.js"></script>
+    </body>
+</html>

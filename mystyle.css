@@ -1,0 +1,86 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 29, 2018, 8:34:26 PM
+    Author     : S531373
+*/
+
+.home{
+    background-image: url("bcg1.jpg");
+    background-repeat: no-repeat;
+    /* width: 100%; */
+    overflow-x: hidden;
+   
+}
+.txt{
+    font-size: 1.5em;
+}
+
+#intro{
+    color: whitesmoke;
+    padding-left: 50px;
+    
+}
+#intro1{
+    color: whitesmoke;
+    padding-left: 50px;
+    
+}
+#email{
+    color: #ffffff;
+    padding-top: 1em;
+}
+#foot{
+    padding-top: 70px;
+}
+.cont{
+  background-color: #302E2A;
+    background-repeat: no-repeat;
+    width: 100%;
+    overflow-x: hidden;
+}
+#conthead{
+    padding-top: 10em;
+    
+    font-family: cursive;
+    font-style: oblique;
+}
+.conleft{
+    border-style: solid;
+    background-color: black;
+}
+.phone{
+display: inline-block;    
+}
+.num{
+    padding-left: 1em;
+}
+
+.msg{
+    color: white;
+}
+.use{
+  color: whitesmoke;   
+}
+.alp{
+ color:#FFCA33;
+}
+.form-control{
+    display: inline-block;
+    width: 70%;
+    margin-left: 1em;
+    margin-top: 1em;
+}
+.btn{
+    margin-top: 2em;
+}
+
+#frm{
+    padding-top: 10em;
+}
+.dt{
+    color: whitesmoke;
+}
